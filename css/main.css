@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: "AntiqueOliveBoldCondensed";
+    src: url("../fonts/Antique_Olive_Bold_Condensed.ttf")
+}
+
+@font-face {
+    font-family: "AntiqueOliveRomanRegular";
+    src: url("../fonts/Antique Olive Roman Regular.ttf")
+}
+
+
+/*  GENERAL PROPERTIES HERE  */
+
+html {
+  background: url(../img/bat-bg.jpg) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+
+  }
+
+h1 {
+  font-family: "AntiqueOliveBoldCondensed", Helvetica;
+
+  font-weight: normal;
+  text-align: center;
+  font-size: 3.5em;
+  color: white;
+}
+
+h2 {
+  font-family: "AntiqueOliveBoldCondensed", Helvetica;
+
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
+  color: #FFF;
+
+}
+
+h3 {
+  font-family: "AntiqueOliveBoldCondensed", Helvetica;
+
+  font-weight: normal;
+  text-align: center;
+  font-size: 2.5em;
+  color: #FFF;
+
+}
+
+
+/*  MAIN (CONTAINER) HERE  */
+
+.main {
+ width: 100%;
+
+ margin: 200px auto;
+ overflow: hidden;
+
+
+ position: relative;
+
+}
+
+/* border property
+border: 2px dotted white;
+border: 2px dotted red;  */
+
+
+/*  question & answer section HERE    */
+
+aside.question {
+  display: show;
+
+  float: left;
+  width: 45%;
+  margin: 17% auto;
+
+}
+
+aside.answer {
+  display: none;
+
+  float: left;
+  width: 45%;
+  margin: 20% 0 0 0;
+
+}
+.answer > h1 {
+  text-align: right;
+}
+
+.question>h1 {
+  line-height: 1em;
+}
+
+
+
+/*  SUBJECT PROPERTIES HERE    */
+
+.subject {
+  float: right;
+
+  margin: 0 auto;
+  width: 55%;
+
+  position: relative;
+
+}
+
+
+/* VARIABLE NUMBERS HERE    */
+
+
+.subject> .ls_num {
+
+  display: none;
+  font-size: 3em;
+  margin: 36% 0 0 43%;
+
+  position: absolute;
+}
+
+
+.subject> .l_num {
+
+  display: none;
+  font-size: 3em;
+  margin: 36% 0 0 43%;
+
+  position: absolute;
+}
+
+
+.subject> .m_num {
+
+  display: none;
+  font-size: 3em;
+  margin: 36% 0 0 43%;
+
+  position: absolute;
+}
+.subject> .f_num {
+
+  display: none;
+  /* color: rgba(226, 210, 255, 0.99); */
+  font-size: 3em;
+  margin: 36% 0 0 42.5%;
+
+
+
+  position: absolute;
+}
+
+
+/* BAT IMAGE & VARIATIONS HERE  */
+
+.subject> .original {
+  display: show;
+
+  margin: 0 150px;
+  width: 60%;
+  height: 80%;
+}
+
+.subject> .medium {
+
+  display: none;
+
+  margin: 0 150px;
+  width: 60%;
+  height: 80%;
+}
+
+.subject> .fat {
+  display: none;
+
+  margin: 0 150px;
+  width: 60%;
+  height: 80%;
+}
+
+
+/*  BOTTOM SECTION BEGINS HERE ~HIDDEN IN HTML CURRENTLY ~                     */
+
+.bottom {
+
+ clear: both;
+
+ margin: 0 auto;
+ width: 100%;
+ height: 20%;
+ border: 2px solid gray;
+
+}
+  /*border: 8px medium orange;
+  text-align: center;
+  background-color: rgb(226, 226, 226);
+  opacity: 0.75;
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.light {
+    background-color: #FFF;
+    color: #222;
+}
+
+.dark {
+    background-color: #222;
+    color: #FFF;
+}
+
+.status {
+    font: 3em Impact, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*
+.switch {
+
+    width: 200px;
+    height: 300px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    padding: 40px;
+
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    margin: auto;
+
+    background-color: #FFF;
+    box-shadow: inset 0 0 5px rgba(100,100,100,0.7);
+}
+
+.switch>button {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #999;
+}
+*/
